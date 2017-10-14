@@ -39,7 +39,7 @@ public class Main {
             //accepted bet amount is 5-20
             System.out.println("Enter the bet amount,minimum is 5 and maximum is 20");
             int bet = scan.nextInt();
-            
+            //invalid bet handling
             while(bet<=0)
             {
                 System.out.println("Please enter a valid bet amount");
