@@ -24,20 +24,22 @@ public class Main {
 
         while (true)
         {
-            System.out.println("Enter the name of the player");
+            //player name
+		System.out.println("Enter the name of the player");
         String playerName = scan.next();
-        System.out.println("Enter the age of the player");
+        //player age
+		System.out.println("Enter the age of the player");
         int playerAge = scan.nextInt();
         
-        
+        //Age verfication
          if(playerAge>17)
         {
             int winCount = 0;
             int loseCount = 0;
-            
+            //accepted bet amount is 5-20
             System.out.println("Enter the bet amount,minimum is 5 and maximum is 20");
             int bet = scan.nextInt();
-            
+            //invalid bet handling
             while(bet<=0)
             {
                 System.out.println("Please enter a valid bet amount");
@@ -98,18 +100,18 @@ public class Main {
                     }
                 System.out.println("Do you want to continue ?");
                 System.out.println("Press q to quit, Enter to continue");
-                //ans = console.readLine();
-                //if (ans.equals("q")) break;
+                ans = console.readLine();
+                if (ans.equals("q")) break;
                 // comment th ebelow code if you want to run the program witout asking the player to place the bet
-                //System.out.println("Enter the bet amount"); 
-                //bet = scan.nextInt();
+                System.out.println("Enter the bet amount"); 
+                bet = scan.nextInt();
 
                     
                 } //while
 
                 System.out.print(String.format("%d turns later.\nEnd Game %d: ", turn, i));
                 System.out.println(String.format("%s now has balance %d\n", player.getName(), player.getBalance()));
-              //  if (ans.equals("q")) break;
+                if (ans.equals("q")) break;
             } //for
         
                 
