@@ -36,7 +36,7 @@ public class Main {
         {
             int winCount = 0;
             int loseCount = 0;
-            
+            //accepted bet amount is 5-20
             System.out.println("Enter the bet amount,minimum is 5 and maximum is 20");
             int bet = scan.nextInt();
             
