@@ -100,18 +100,18 @@ public class Main {
                     }
                 System.out.println("Do you want to continue ?");
                 System.out.println("Press q to quit, Enter to continue");
-                //ans = console.readLine();
-                //if (ans.equals("q")) break;
+                ans = console.readLine();
+                if (ans.equals("q")) break;
                 // comment th ebelow code if you want to run the program witout asking the player to place the bet
-                //System.out.println("Enter the bet amount"); 
-                //bet = scan.nextInt();
+                System.out.println("Enter the bet amount"); 
+                bet = scan.nextInt();
 
                     
                 } //while
 
                 System.out.print(String.format("%d turns later.\nEnd Game %d: ", turn, i));
                 System.out.println(String.format("%s now has balance %d\n", player.getName(), player.getBalance()));
-              //  if (ans.equals("q")) break;
+                if (ans.equals("q")) break;
             } //for
         
                 
