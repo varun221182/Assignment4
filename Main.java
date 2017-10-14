@@ -27,7 +27,8 @@ public class Main {
             //player name
 		System.out.println("Enter the name of the player");
         String playerName = scan.next();
-        System.out.println("Enter the age of the player");
+        //player age
+		System.out.println("Enter the age of the player");
         int playerAge = scan.nextInt();
         
         
