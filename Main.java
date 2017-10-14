@@ -31,7 +31,7 @@ public class Main {
 		System.out.println("Enter the age of the player");
         int playerAge = scan.nextInt();
         
-        
+        //Age verfication
          if(playerAge>17)
         {
             int winCount = 0;
