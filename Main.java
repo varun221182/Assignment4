@@ -24,7 +24,8 @@ public class Main {
 
         while (true)
         {
-            System.out.println("Enter the name of the player");
+            //player name
+		System.out.println("Enter the name of the player");
         String playerName = scan.next();
         System.out.println("Enter the age of the player");
         int playerAge = scan.nextInt();
